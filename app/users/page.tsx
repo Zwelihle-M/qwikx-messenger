@@ -1,11 +1,8 @@
 
-
-
-import React from "react";
 import EmptyState from "../components/EmptyState";
 
 const Users = () => {
-  return <div className="hidden lg:block lg:pl-80 h-full">
+  return <div className="hidden lg:block lg:pl-80 h-full bg-graySeven text-white">
     <EmptyState />
   </div>;
 };
